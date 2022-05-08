@@ -23,3 +23,6 @@ tei-lb:before {
   content: "\A":
 }
 
+html {
+    background-color: green;
+}
