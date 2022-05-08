@@ -1,24 +1,5 @@
-tei-div {
-  display: block;
-}
-tei-p {
-  display: block;
-  margin-top: .5em;
-  margin-bottom: .5em;
-}
+tei-p{ color: green }
 
-tei-list[type=simple] {
-  list-style-type: none;
-}
-tei-list[type=simple]>tei-item {
-  display: list-item;
-}
+tei-hi: :before { content: "***" }
 
-tei-hi[rend=italics] {
-  font-style: italic;
-}
-
-tei-lb:before {
-  white-space: pre;
-  content: "\A";
-}
+tei-hi: after{ content: "***" }
