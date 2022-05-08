@@ -23,10 +23,3 @@ tei-lb:before {
   content: "\A":
 }
 
-
-
-tei-p{ color: green; }
-
-tei-hi: :before { content: "***"; }
-
-tei-hi: after{ content: "***"; }
