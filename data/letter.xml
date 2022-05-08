@@ -1,258 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I_1">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title n="print" rend="1">*1. An Adam Lorenz von Oerthel in Hof. </title>
-            <title n="digital">An Johann Adam Lorenz von Oerthel. Hof, vor dem 11. Oktober 1780. </title>
-            <editor>
-               <persName xml:id="EB" ref="http://d-nb.info/gnd/118655795">
-                  <surname>Berend</surname>
-                  <forename>Eduard</forename>
-               </persName>
-            </editor>
-            <respStmt>
-               <resp>Editorische Bearbeitungen und Ergänzungen</resp>
-               <persName xml:id="MB" ref="http://d-nb.info/gnd/112754147">
-                  <surname>Markus</surname>
-                  <forename>Bernauer</forename>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>Konzeption und Entwicklung der digitalen Edition</resp>
-               <persName ref="http://d-nb.info/gnd/1121508855">
-                  <surname>Neuber</surname>
-                  <forename>Frederike</forename>
-               </persName>
-            </respStmt>
-            <respStmt>
-               <resp>Mitarbeit digitale Edition</resp>
-               <persName>
-                  <surname>Klappenbach</surname>
-                  <forename>Lou</forename>
-               </persName>
-            </respStmt>
+            <title>Brief von Karl August Böttiger an Joseph von Hammer-Purgstall</title>
+            <author>Karl August Böttiger</author>
          </titleStmt>
-         <editionStmt>
-            <edition>Jean Paul - Sämtliche Briefe digital. In der Fassung der von Eduard Berend
-               herausgegebenen 3. Abteilung der Historisch-kritischen Ausgabe (1952-1964), im
-               Auftrag der Berlin-Brandenburgischen Akademie der Wissenschaften überarbeitet und
-               heraugegeben von Markus Bernauer, Norbert Miller und Frederike Neuber
-               (2018).</edition>
-         </editionStmt>
          <publicationStmt>
-            <publisher>
-               <email>telota@bbaw.de</email>
-               <orgName>TELOTA - The Electronic Life Of The Academy</orgName>
-               <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
-               <address>
-                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
-                  <country>Germany</country>
-               </address>
-            </publisher>
-            <pubPlace>Berlin</pubPlace>
-            <date type="publication">2018-06-10</date>
-            <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>Distributed under the Creative Commons Attribution-ShareAlike 4.0 International
-                     license</p>
-               </licence>
-            </availability>
-            <idno>
-               <idno type="URLWeb">https://www.jeanpaul-edition.de/brief.html?num=I_1</idno>
-               <idno type="URLXML">https://www.jeanpaul-edition.de/briefe/I/I_1</idno>
-               <idno type="TELOTAID">I_1</idno>
-            </idno>
+            <p>Zambo Sabine</p>
          </publicationStmt>
-         <notesStmt>
-            <note>Der in XML-kodierte Volltext wurde im Juli 2017 aus dem Deutschen <ref target="http://www.deutschestextarchiv.de/doku/textquellen#briefjeanpaul">Textarchiv (DTA)</ref> übernommen. Bitte beachten Sie, dass die aktuelle
-               Kodierung von Text und Metadaten mittlerweile nicht mehr dem Stand zum Zeitpunkt der
-               Übernahme des Werkes aus dem DTA entsprechen muss.</note>
-         </notesStmt>
          <sourceDesc>
             <bibl>
-               <title n="I">Jean Pauls Sämtliche Werke, Historisch-kritische Ausgabe. Dritte
-                  Abteilung, Band 1. Hrsg. v. Eduard Berend. Berlin: Akademieverlag, 1956.</title>
-               <biblScope n="text" unit="page">
-                  <num>1</num>
-               </biblScope>
-               <biblScope n="comment" unit="page">
-                  <num>416</num>
-                  <num>417</num>
-               </biblScope>
+               <editor>Walter Höflechner</editor>
+               <title>Joseph von Hammer-Purgstall Briefedition</title>
+               <ptr target="http://gams.uni-graz.at/hp" />
             </bibl>
-            <msDesc>
-               <msIdentifier>
-                  <collection>Auswahl der Briefe nach Eduard Berend.</collection>
-               </msIdentifier>
-               <p>Druck</p>
-            </msDesc>
-            <listPerson type="commentary">
-               <person corresp="#JP-002958">
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu"/>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Karl August Böttiger</persName>
+               <placeName>Weimar</placeName>
+               <date when="1798-03-05">05. März 1798</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Joseph von Hammer-Purgstall</persName>
+            </correspAction>
+         </correspDesc>
+         <particDesc>
+            <listPerson type="historical">
+               <person xml:id="KAB" sex="m">
+                  <persName ref="https://de.wikipedia.org/wiki/Karl_August_B%C3%B6ttiger">
+                     <forename>Karl August</forename> 
+                     <surname>Böttiger</surname>
+                  </persName>
+                  <birth when="1760-06-08">8. Juni 1760
+                     <placeName>
+                        <settlement type="city">Reichenbach im Vogtland</settlement>
+                        <country key="DE">Deutschland</country>
+                     </placeName>
+                  </birth>
+                  <death when="1835-11-17">17. November 1835
+                     <placeName>
+                        <settlement type="city">Dresden</settlement>
+                        <country key="DE">Deutschland</country>
+                     </placeName>
+                  </death>
+               </person>
+               <person xml:id="JHP" sex="m">
+                  <persName ref="https://de.wikipedia.org/wiki/Joseph_von_Hammer-Purgstall">
+                     <forename>Joseph</forename>
+                     <surname>von Hammer-Purgstall</surname>
+                  </persName>
+                  <birth when="1774-06-09">9. Juni 1774
+                     <placeName>
+                        <settlement type="city">Graz</settlement>
+                        <country key="AT">Österreich</country>
+                     </placeName>
+                  </birth>
+                  <death when="1856-11-23">23. November 1856
+                     <placeName>
+                        <settlement type="city">Wien</settlement>
+                        <country key="AT">Österreich</country>
+                     </placeName>
+                  </death>
+               </person>
+               <person xml:id="H" sex="m">
                   <persName>
-                     <name type="reg">Narzissus</name>
+                     <surname>Herder</surname>
                   </persName>
                </person>
-               <person corresp="#JP-003071">
+               <person xml:id="M" sex="m">
                   <persName>
-                     <name type="reg">Ophiten</name>
+                     <surname>Müller</surname>
+                  </persName>
+               </person>
+               <person xml:id="W" sex="m">
+                  <persName>
+                     <surname>Wieland</surname>
+                  </persName>
+               </person>
+               <person xml:id="L" sex="m">
+                  <persName>
+                     <surname>Leon</surname>
+                  </persName>
+               </person>
+               <person xml:id="J" sex="m">
+                  <persName>
+                     <surname>Joris</surname>
+                  </persName>
+               </person>
+               <person xml:id="F" sex="m">
+                  <persName>
+                     <surname>Falk</surname>
                   </persName>
                </person>
             </listPerson>
-            <listBibl type="commentary" subtype="werke">
-               <bibl corresp="#JP-008523">
-                  <author>Goethe, Johann Wolfgang von (1749-1832)</author>
-                  <title>Werther (1774)</title>
-               </bibl>
-               <bibl corresp="#JP-009202">
-                  <author>Miller, Johann Martin (1750-1814), Theologe und Schriftsteller</author>
-                  <title>Siegwart (1776)</title>
-               </bibl>
-            </listBibl>
-            <listBibl type="commentary" subtype="werke-jp">
-               <bibl corresp="#JP-010501">
-                  <title>Abelard und Heloise [1781]</title>
-               </bibl>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <tagsDecl>
-            <rendition scheme="css" xml:id="rendition-aq">font-family: sans-serif</rendition>
-            <rendition scheme="css" xml:id="rendition-g">letter-spacing: 0.1em</rendition>
-            <rendition scheme="css" xml:id="rendition-b">font-weight: bold</rendition>
-            <rendition scheme="css" xml:id="rendition-i">font-style: italic</rendition>
-            <rendition scheme="css" xml:id="rendition-rkd">font-size: 85%</rendition>
-            <rendition scheme="css" xml:id="rendition-et">margin-left: 50px</rendition>
-            <rendition scheme="css" xml:id="rendition-left">font-size: 85%;</rendition>
-            <rendition scheme="css" xml:id="rendition-right">margin-left: 300px</rendition>
-            <rendition scheme="css" xml:id="rendition-sup">vertical-align:super;
-               font-size:.7em</rendition>
-            <rendition scheme="css" xml:id="rendition-hyphen">content: "-"</rendition>
-         </tagsDecl>
-      </encodingDesc>
-      <profileDesc>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName key="JP-999999" ref="http://d-nb.info/gnd/118557211">
-                  <name type="reg">Richter</name> Johann Paul Friedrich (Pseud. Jean
-                  Paul)</persName>
-               <date notAfter="1780-10-11">vor dem 11. Oktober 1780</date>
-               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
-            </correspAction>
-            <correspAction type="received">
-               <persName key="JP-003050" ref="http://d-nb.info/gnd/11710633X">
-                  <name type="reg">Oerthel</name> Johann Adam Lorenz von</persName>
-               <placeName key="JP-005841" ref="http://www.geonames.org/2902768">Hof</placeName>
-            </correspAction>
-            <correspContext>
-               <ref type="next" subtype="fromAuthor" target="https://jeanpaul-edition.de/brief.html?num=I_23">30. April 1782</ref>
-            </correspContext>
-         </correspDesc>
+         </particDesc>
       </profileDesc>
    </teiHeader>
    <text>
       <body>
          <div type="letter">
-            <dateline>
-               <hi rendition="#right">
-                  <metamark>[</metamark>
-                  <placeName>Hof</placeName>, <date>vor 11. Okt. 1780</date>
-                  <metamark>]</metamark>
-               </hi>
-            </dateline>
-            <lb xml:id="I_1-2"/>
-            <p>Ach die wenigen Zeilen haben mir <subst><del>Thränen</del><add>Tränen</add></subst> verursacht, mir — der <lb xml:id="I_1-3"/>wenig Freud’ hat; denn wo wäre sie? — und der auch diese einigen <lb xml:id="I_1-4"/>bald missen mus. Wenn ich vielleicht weg bin: so seh’ zu Nachts zu <lb n="5" xml:id="I_1-5"/>deinen Gängen in den Garten hin, wenn sie der Volmond beschim<lb xml:id="I_1-6" rendition="#hyphen"/>mert — und denke dan d’ran — wie wir ienseits
-               hinüber über das be<lb xml:id="I_1-7" rendition="#hyphen"/>leuchtete Wasser blikten —
-               wie eine freundschaftliche Thräne dem <lb xml:id="I_1-8"/>Aug’ entdrang — zum Alvater
-               hinauf — — Ach! die Tage der <lb xml:id="I_1-9"/>Kindheit sind hin — die Tage des
-               Schülers bei beiden auch bald vol<lb n="10" xml:id="I_1-10" rendition="#hyphen"/>endet — bald’s ganze Leben — — Hier kamst du und unterbrachst mich; <lb xml:id="I_1-11"/>ich las das Papier, das du mir gegeben hast; und nun kan ich
-               nicht <lb xml:id="I_1-12"/>mehr schreiben — — fliesset Thränen. — —</p>
-            <lb xml:id="I_1-13"/>
-            <p>Doch noch was. — Lauter Sterbegedanken umgeben mich iezt — <lb xml:id="I_1-14"/>vielleicht dich auch; und dies ist beste Zubereitung. — — Nun schim<lb n="15" xml:id="I_1-15" rendition="#hyphen"/>merst ruhiger Mond! senkest Ruhe in gequälte
-               Seelen — Schauerlich <lb xml:id="I_1-16"/>ist’s, unter Mondsblinkern, al die
-               harmlosen, nachbarlichen Hügel — <lb xml:id="I_1-17"/>bei’n Gräbern wandelnd — zu
-               spähn! Schauerlich wenn’s so todenleise <lb xml:id="I_1-18"/>um dich her ist, und’s
-               dich ergreift das grosse alumspannende Gefühl — <lb xml:id="I_1-19"/>edel ist’s,
-               nächtlich die Gräber der süsschlummernden Freunde zu be<lb n="20" xml:id="I_1-20" rendition="#hyphen"/>suchen — und ach! den betrauern, den nun der Wurm zernagt. —
-               Lese <lb xml:id="I_1-21"/>in <hi rendition="#g">Yorik’s</hi> Reisen im 1<hi rendition="#sup">ten</hi> Theil das, wo er beim Grabe des Mönchs <note corresp="#I_1-22">
-                  <listBibl type="lineReference" subtype="werke">
-                     <bibl corresp="#JP-009831" ana="†">
-                        <author>Sterne, Laurence (Pseudonym Yorick) (1713-1768)</author>
-                        <title>A Sentimental Journey (1768)</title>
-                     </bibl>
-                  </listBibl>
-               </note>
-               <lb xml:id="I_1-22"/>war. — —</p>
-            <lb xml:id="I_1-23"/>
-            <p>Von diesem Geschriebenen rede mit mir ia kein Wort — schreiben <lb xml:id="I_1-24"/>kanst allenfals. — — <lb n="25" xml:id="I_1-25"/>
+            <head>Brief von Karl August Böttiger an Joseph von Hammer-Purgstall</head>
+            <opener>
+               <dateline><date when="1798-03-05">1798 III 5</date>, <placeName>Weimar</placeName></dateline>
+               <salute>Verehrtester Freund!</salute>
+            </opener>
+            <p>Es<note place="bottom" type="gloss">Partiell bei PvTh Böttigerbriefe 20f</note> ist heute der Begräbnistag 
+               <name type="person" ref="#KAB">meines</name> <roleName>jüngeren Sohnes</roleName>, und <name type="person" ref="#KAB">ich</name> bin stumpf und abgespannt. Dem ohngeachtet möchte <name type="person" ref="#KAB">ich</name> <name type="person" ref="#JHP">Ihnen</name> wenigstens den 
+               herzlich dankenden Empfangschein für <name type="person" ref="#JHP">Ihre</name> zwei Briefe und deren Beilagen – den letzteren nebst dem zurückgebliebenen 
+               M[anu]sc[rip]te<note place="bottom" type="gloss">Diese häufig gebrauchte Abkürzung liest sich in BÖTTIGERs Briefen wie „Misot“, so dass man sie für einen von ihm gebrauchten Ausdruck zu halten geneigt wäre.</note> 
+               und dem klassischen Friedensgedicht<note place="bottom" type="gloss">HP, Friedenshymnen. Frühling und Friede, in: Neuer Teutscher Merkur 2 (1797) 289–294.</note> 
+               – nicht länger schuldig bleiben. Also nur das Allernotwendigste. <name type="person" ref="#JHP">Ihre</name> Blumen aus dem Orient hat <name type="person" ref="#H">HERDER</name>
+               alle in treuer Bewahrung und sie erscheinen ohnfehlbar gleich nach der Messe. Auch was <name type="person" ref="#JHP">Sie</name> <name type="person" ref="#KAB">mir</name> zuletzt geschrieben haben,
+               wird <name type="person" ref="#H">ihm</name> alles willkommen sein.  Nur <name type="person" ref="#KAB">mir</name> ist das Unglück passiert, die kleine Zueignung an unseren verehrten <name type="person" ref="#M">MÜLLER,</name>
+               die <name type="person" ref="#JHP">Sie</name> <name type="person" ref="#KAB">mir</name> jüngst zuschickten, zu verlegen, und <name type="person" ref="#KAP">ich</name> habe sie trotz alles Umwühlens <name type="person" ref="#KAP">meiner</name> Papiere
+               nicht finden können. Darf <name type="person" ref="#KAB">ich</name> also wohl um Ersatz dieses Verlustes bitten? Die
+               Oden bilinguem<note place="bottom" type="gloss">Es handelt sich dabei um die Ode „Les Orientalistes Francais. Ode imitée d’Horace. Ode 12. L.I.“, der HP ja eine Übersetzung beigegeben hatte und die eben im Neuen Teutschen Merkur 1 (1797) 317–322 erschien.</note>
+               habe <name type="person" ref="#KAB">ich</name> eben dem <roleName>Götterbote</roleName>n, um sie in alle Welt zu verkünden, nicht ohne <name type="person" ref="#KAB">meine</name>Bewunderung<name type="person" ref="#JHP">Ihrer</name> allumfassenden
+               Sprachkenntnis und vielseitigen Dichtergabe übergeben. Man kann nicht wissen, wozu dies selbst in Paris gut ist. 
+               – Für all <name type="person" ref="#JHP">Ihr</name> Wirken wegen des Merkurs <name type="person" ref="#W">WIELANDs</name> herzlichen Dank, dem <name type="person" ref="#KAB">ich</name>den <name type="person" ref="#KAB">meinigen</name> anfüge. 
+               H[er]r <roleName>Bibliothekssekretär</roleName> <name type="person" ref="#L">LEON</name> (nicht wahr, diesen Titel hat <name type="person" ref="#L">er</name>?), <name type="person" ref="#JHP">Ihr</name> <name type="person" ref="#L">Freund</name>, hat <name type="person" ref="#KAB">mir</name> heute einen 
+               sehr freundlichen Brief geschrieben. <name type="person" ref="#L">Seine</name> zierlichen Musengaben werden, so bald es möglich ist, 
+               im Merkur erscheinen, und dann schreibe <name type="person" ref="#KAB">ich</name> <name type="person" ref="#L">ihm</name> selbst. In diesem Augenblick ist es <name type="person" ref="#KAB">mir</name> noch nicht möglich.
+               H[err] <name type="person" ref="#J">JORIS</name> Korrespondenz für den Merkur wäre <name type="person" ref="#KAB, #JHP">uns</name> sehr erwünscht, und <name type="person" ref="#KAB">ich</name> erkenne in der 
+               Zurückführung dieses edlen <name type="person" ref="#J">Mannes</name> den rastlos tätigen <name type="person" ref="#J">Mann</name>. <name type="person" ref="#KAB">Ich</name> will einige Worte an <name type="person" ref="#J">ihn</name> beilegen, 
+               und <name type="person" ref="#KAB">mich</name> auf <name type="person" ref="#JHP">Sie</name> berufen. Krankheit und Tod meines <roleName>Kindes </roleName>haben <name type="person" ref="#KAB">mir</name> eine ganze Woche geraubt, 
+               und nun stürzen von allen Seiten aufgeschobene dringende Arbeiten auf <name type="person" ref="#KAB">mich</name>. 
+               Der brave <name type="person" ref="#F">FALK</name> empfiehlt sich <name type="person" ref="#JHP">Ihnen</name>, so auch vorzüglich</p>
+            <p><name type="person" ref="#H">HERDER</name>, der gewiß eine herrliche Vorrede schreiben wird, da <name type="person" ref="#H">er</name> neuerlich ganz in 
+               Persepolis<note place="bottom" type="gloss">HERDER hatte 1787 in Gotha eine Schrift „Persepolis. Eine Mutmaßung“ veröffentlicht, die sich mit den seit dem 17. Jh immer wieder durch Reisende und in der zweiten Hälfte des 18. Jhs insbesondere durch Carsten NIEBUHR in Deutschland bekannt gemachten Ruinen beschäftigte.</note>  wohnt.
             </p>
-            <closer>
-               <salute>
-                  <hi rendition="#right">Dein Freund <persName ref="http://d-nb.info/gnd/118557211">Richter</persName></hi>
-               </salute>
-            </closer>
-            <lb xml:id="I_1-26"/>
-         </div>
-         <div type="comment">
-            <p>
-               <hi rendition="#aq">
-                  <hi rendition="#i">J</hi>: Wahrheit</hi>
-               <hi rendition="#aq">3,62</hi>. <hi rendition="#b">1</hi>,<hi rendition="#rkd">5</hi>
-               seh’] sieh’(<hi rendition="#aq">in diesen Jahren gebraucht Richter <lb/>stets die
-                  schwache Imperativform, s.</hi>
-               <hi rendition="#b">84</hi>,<hi rendition="#rkd">20</hi>, <hi rendition="#b">98</hi>,<hi rendition="#rkd">18</hi>, <hi rendition="#b">145</hi>,<hi rendition="#rkd">22</hi>) <hi rendition="#rkd">16</hi> senkest <hi rendition="#aq">bis</hi>
-               <hi rendition="#rkd">21</hi>
-               <lb/>zernagt.] <hi rendition="#aq">in Anführungsstrichen, wohl versehentlich, denn es
-                  handelt sich <lb/>sicher nicht um ein Zitat</hi>
-               <hi rendition="#rkd">22</hi> Lese] Lies (<hi rendition="#aq">vgl.</hi>
-               <hi rendition="#b">84</hi>,<hi rendition="#rkd">13.29</hi>, <hi rendition="#b">269</hi>,<hi rendition="#rkd">25</hi>, <hi rendition="#b">362</hi>,<hi rendition="#rkd">28</hi>, <hi rendition="#b">397</hi>,<hi rendition="#rkd">37</hi>
-                  ).<hi rendition="#aq">
-                  <add resp="#MB">Vielleicht schrieb Jean Paul</add>
-               </hi>
-               <add resp="#MB"> Les, </add>
-               <hi rendition="#aq">
-                  <add resp="#MB">wie Bd. II, 4</add>
-               </hi>
-               <hi rendition="#rkd">
-                  <hi rendition="#aq">
-                     <add resp="#MB">,24</add>
-                  </hi>
-               </hi>
-               <hi rendition="#aq">
-                  <add resp="#MB">.</add>
-               </hi>
-            </p>
-            <lb/>
-            <p>
-               <hi rendition="#aq">Über Johann <hi rendition="#g">Adam Lorenz von Oerthel,</hi> geb.
-                  17. April 1763 in Hof, <lb/>gest. 13. Okt. 1786 in Töpen, den älteren Sohn des
-                  Kammerrats von <lb/>Oerthel (s. Nr. 86†), seit 19. Sept. 1775 Schüler des Hofer
-                  Gymnasiums <lb/>(Weißmann Nr. 5735), das er erst einige Zeit nach Richter verließ,
-                  vgl. <lb/>meinen Aufsatz „Ein Liebesroman aus Jean Pauls Jugendzeit“, Zeitschr.
-                  <lb/>f. Bücherfreunde, N. F. VI (1914/15), 86—93. Richter erhielt seine Briefe
-                  <lb/>an diesen seinen ersten Intimus vermutlich nach dessen frühem Tode zu<lb rendition="#hyphen"/>rück, wohl im Austausch gegen Oerthels Antworten, von
-                  denen nur geringe <lb/>Reste erhalten sind, z. T. Konzepte, die vielleicht unter
-                  Richters Briefen <lb/>lagen. Den Drucken in Wahrheit Bd. 3 und Nachlaß 2,265—327
-                  liegen</hi>
-               <lb/>
-               <hi rendition="#aq">streckenweise die Kopien zugrunde, die aber von den
-                  Originalbriefen nur <lb/>wenig abweichen. — Dieses älteste, leider handschriftlich
-                  nicht erhaltene <lb/>Blatt, anscheinend der Schluß eines Briefes, ist offenbar
-                  nicht lange vor <lb/>Richters Abgang vom Gymnasium (11. Okt. 1780; Oerthel blieb
-                  noch etwas <lb/>länger) geschrieben und neben dem im Januar 1781 entstandenen
-                     Brief<lb rendition="#hyphen"/>roman „Abelard und Heloise“ (II. Abt., I,
-                  105—154) das einzige Zeugnis <lb/>einer frühen, kurzen, durch den Umgang mit dem
-                  kränklich-empfindsamen, <lb/>schwärmerisch-verliebten Freunde wie auch durch
-                  literarische Vorbilder <lb/>(Werther, Siegwart, Yorick) genährten
-                  Sentimentalitätsperiode. <hi rendition="#b">1</hi>,<hi rendition="#rkd">6</hi>
-                  <lb/>Oerthel wohnte in Hof in einem idyllisch an der Saale gelegenen Gartenhaus,
-                  <lb/>wo die Freunde abends oft miteinander geschwärmt hatten. <hi rendition="#rkd">18</hi>
-                  <hi rendition="#g">toden<lb rendition="#hyphen"/>leise:</hi> Jean Pauls erste
-                  Wortschöpfung; vgl. II. Abt., I, <hi rendition="#b">145</hi>,<hi rendition="#rkd">30</hi>.</hi>
-            </p>
+            <closer><salute>Unwandelbar <name type="person" ref="#JHP">Ihr</name> treuer <name type="person" ref="#KAB">BÖTTIGER</name></salute></closer>
          </div>
       </body>
    </text>
 </TEI>
+
