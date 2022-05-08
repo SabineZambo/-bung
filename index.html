@@ -18,23 +18,6 @@
       document.getElementById("TEI").appendChild(data)
 
      })
-    
-    let behaviors = {
-    "tei": {
-      "head": function(e) {
-        let level = document.evaluate("count(ancestor::tei-div)", e, null, XPathResult.NUMBER_TYPE, null);
-        let result = document.createElement("h" + level.numberValue);
-        for (let n of Array.from(e.childNodes)) {
-          result.appendChild(n.cloneNode());
-        }
-        return result;
-      },
-      "lb": ["<br>"],
-    }
-  };
-  c.addBehaviors(behaviors);
-
-
 
    </script>
  </body>
